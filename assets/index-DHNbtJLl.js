@@ -217,10 +217,9 @@
 `,rt=` <!-- header-nav-start -->
       <div class="w-full h-[100px] p-3 ">
         <div
-          class="sm:w-full h-[80px] bg-[#15171E] gap-2 justify-evenly items-center p-2 xl:flex "
-        >
+          class="sm:w-full  h-[80px] bg-[#d12828] 2xl:gap-2 xl:justify-evenly  items-center p-2 xl:flex ">
           <div
-            class="w-[953px] h-full bg-[#23252B] sm:hidden ml:flex rounded-[6px] 2xl:flex gap-6 pl-4 text-white z-999"
+            class="xl:w-full h-full bg-[#23252B] sm:hidden ml:flex rounded-[6px] 2xl:flex gap-6 pl-4 text-white z-999"
           >
             <a class="flex gap-2 items-center relative group">
               Warcraft
@@ -229,7 +228,7 @@
                 width="16"
                 height="16"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="currentColor"
+                fill="currentColor" 
                 viewBox="0 0 24 24"
                 slot="icon"
               >
@@ -1316,7 +1315,7 @@
           <div
             class="ml:flex lg:w-[200px] 2xl:w-[180px] h-full bg-[#23252B] rounded-[6px] sm:hidden 2xl:flex justify-evenly items-center text-white desktop:text-[14px] group "
           >
-            <h2 class="xl:text-[13px] xl:pl-3">Battle.net Balance</h2>
+            <h2 class="xl:text-[10px] xl:pl-3">Battle.net Balance</h2>
             <svg
               class="meka-menu-drop-down-label__icon"
               width="16"
@@ -1480,7 +1479,7 @@
       
     </div>`,aa=`  <!-- footer-2-start -->
       <footer class="  flex sm:m-auto justify-center items-center      sm:h-[300px] ">
-        <div class="xl:w-[1400px]  lg:h-[200px] sm:w-[400px] flex justify-around items-center  font-bold text-white border-b border-slate-600 pb-2 mb-4">
+        <div class="xl:w-[1300px]  lg:h-[200px] sm:w-[400px] flex justify-around items-center  font-bold text-white border-b border-slate-600 pb-2 mb-4">
   <div class="pl-3 xl:w-[600px] sm:w-[400px] flex gap-3 xl:text-[13px] sm:text-[8px]">
     <span class="text-amber-50  w-full">Careers</span>
     <span class="text-amber-50  w-full">About</span>
