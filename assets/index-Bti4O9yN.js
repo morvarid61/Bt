@@ -1511,7 +1511,7 @@
       
      </div>
      
-        `,ra=async()=>{let t=(await(await fetch("https://morvarid61.github.io/Ap/db.json")).json()).map(s=>`<div class="relative ">
+        `,ra=async()=>{let t=(await(await fetch("https://morvarid61.github.io/gameApi/db.json")).json()).map(s=>`<div class="relative ">
         <img class="w-full h-[164px] object-cover" src="${s.image}"
          alt="${s.gameName}">
          <span class="text-slate-100 px-4  font-bold">${s.gameName}</span>
